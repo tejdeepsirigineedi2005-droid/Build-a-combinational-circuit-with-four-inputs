@@ -5,10 +5,10 @@ module top_module(
     output out_or,
     output out_xor
 );
+
     assign out_and=&in;
     assign out_or=|in;
     assign out_xor=^in;
-
 endmodule
  circuit diagram:
  <img width="720" height="1600" alt="WhatsApp Image 2026-06-13 at 11 06 51 AM" src="https://github.com/user-attachments/assets/6deb4c81-b3e7-4fd8-ba6b-2297fa36eac4" />
